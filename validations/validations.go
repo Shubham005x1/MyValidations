@@ -68,7 +68,7 @@ func IsNumberValid(num string) error {
 }
 
 // validNumberEntry checks if the provided string contains any non-numeric characters.
-func validNumberEntry(name string) bool {
+func ValidNumberEntry(name string) bool {
 	for _, char := range name {
 		if unicode.IsLetter(char) {
 			return true
